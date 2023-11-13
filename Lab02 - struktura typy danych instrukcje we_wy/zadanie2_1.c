@@ -1,31 +1,36 @@
-//
-// Created by micha on 06.11.2023.
-//
+// zadanie2.1
+// WCY23IY3S1 Michał Ślęzak
 
 #include <stdio.h>
 
 int main()
 {
-    unsigned int a = 3, b = 5, c = 25;
-    long int l = 230000000, k = 320000000;
-    double f1 = 0.5, f2 = 0.2;
-    char zn1 = 'a', zn2 = 'b';
-
-    // dodawanie
-    printf("zn1 + a = %c + %d = %d + %d = %c\n", zn1, a, zn1, a, zn1 + a);
-    printf("zn2 + b = %c + %d = %d + %d = %c\n", zn2, b, zn2, b, zn2 + b);
-
-    // odejmowanie
-    printf("l - k = %li - %li = %li\n", l, k, l - k);
-
-    // mnożenie
-    printf("f1 * f2 = %f * %f = %f\n", f1, f2, f1 * f2);
-
-    // dzielenie
-    printf("c / b = %d / %d = %d\n", c, b, c / b);
-
-    // modulo
-    printf("b modulo c = %d %% %d = %d\n", b, c, b % c);
-
-    return 0;
+	char a, b, g;
+	long int c, d;
+	float f1, f2;
+	unsigned int i1, i2;
+	
+	printf("Wprowdz 2 liczby calkowite typu long int: ");
+	scanf("%d%d", &c, &d);
+	printf("Wynik odejmowania liczby %d i %d to: %li\nIch reszta z dzielenia to: %d\n", c, d, c - d, c % d);
+	
+	printf("Wprowadz 2 liczby calkowite bez znaku unsigned int: ");
+	scanf("%u%u", &i1, &i2);
+	printf("Wynik dodawania liczb %u i %u to: %u\n", i1, i2, i1 + i2);
+	
+	printf("Wprowadz 2 liczby zmiennoprzecinkowe float: ");
+	scanf("%f%f", &f1, &f2);
+	printf("Wynik mnozenia liczby %f i %f to: %f\n", f1, f2, f1 * f2);
+	
+	printf( "Wprowadz 2 znaki: \n");
+	fflush(stdin); ////////////////////// to trzeba doda� dla czyszczenia bufora znak�w
+	scanf("%c %c", &a, &b);
+	fflush(stdin); ////////////////////// to trzeba doda� dla czyszczenia bufora znak�w
+	g = a - b;
+//	fflush(stdin);
+	fflush(stdin);
+	printf("Wynik po odjeciu znakow %c i %c to: %c", a, b, g);
+	
+	
+	return 0;
 }

@@ -1,27 +1,27 @@
-//
-// Created by micha on 06.11.2023.
-//
+// zadanie2.3
+// WCY23IY3S1 Michał Ślęzak
 
 #include <stdio.h>
 
 int main()
 {
-    int tabl[3] = {};
-    int i;
-    for (i = 0; i < 3; i++)
-    {
-        printf("Wprowadz %d liczbe: ", i + 1);
-        scanf("%d", &tabl[i]);
-    }
-
-    if (tabl[0] == tabl[1] || tabl[1] == tabl[2] || tabl[0] == tabl[2]){
-        printf("1");
-    }
-    else
-    {
-        printf("0");
-    }
-
-
-    return 0;
+	int a, b, c;	
+	
+	printf("Wprowadz 1. liczbe: ");
+	scanf("%d", &a);
+	
+	printf("Wprowadz 2. liczbe: ");
+	scanf("%d", &b);
+	
+	printf("Wprowadz 3. liczbe: ");
+	scanf("%d", &c);
+	
+	//dokladnie 2 liczby sa rowne, nie 3
+	if ((a == b && a != c && b != c) || (b == c  && b != a && c != a) || (a == c && a != b && c != b)){
+		printf("1");
+	}else{
+		printf("0");
+	}
+	
+	return 0;
 }
