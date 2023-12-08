@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-/*Micha³ Œlêzak WCY23IY3S1 860 65*/
+/*MichaÅ‚ ÅšlÄ™zak*/
 int losowanie(int a, int b)
 {
 	int wylosowana = (rand() % (b - a + 1)) + a;
