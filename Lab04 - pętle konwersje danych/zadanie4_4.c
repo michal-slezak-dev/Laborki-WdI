@@ -1,6 +1,6 @@
 #include <stdio.h>
 //kolejne nieparzyste 2: 1 i 3 3: 1 3 5 7:..
-/*Micha³ Œlêzak WCY23IY3S1 860 65*/
+/*Michaï¿½ ï¿½lï¿½zak */
 int main()
 {
 	int h = 0;

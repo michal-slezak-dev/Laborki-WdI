@@ -1,6 +1,6 @@
 #include <stdio.h> // zakladamy, ze co najmiej 1 rownanie wprowadzi i potem pytamy czy dalej chce
 #include <math.h>
-/*Micha³ Œlêzak WCY23IY3S1 860 65*/
+/*Michaï¿½ ï¿½lï¿½zak */
 int main()
 {
 	

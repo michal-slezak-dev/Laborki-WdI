@@ -1,5 +1,5 @@
 #include <stdio.h>
-/*Micha³ Œlêzak WCY23IY3S1 860 65*/
+/*Michaï¿½ ï¿½lï¿½zak */
 int main()
 {
 	int n = 0;
