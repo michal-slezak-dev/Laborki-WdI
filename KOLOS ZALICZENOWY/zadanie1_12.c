@@ -2,7 +2,7 @@
 // Zadanie 11.2
 //   Przygotowanie rekordow w oparciu o tablice
 //   
-//   Œlêzak Micha³  WCY23IY3S1 860 65
+//   ÅšlÄ™zak MichaÅ‚
 //
 //============================================================================
 
@@ -51,7 +51,7 @@ void wypisz_od_konca(struct Battle_S battles[], int n, int index, int i) // funk
 // numeryczne do prawej ? ---> nie ma znaczenia
 int main()
 {
-	// Tu wpisz czêœc proceduraln¹ programu. 
+	// Tu wpisz czï¿½c proceduralnï¿½ programu. 
 	
 	struct Battle_S battles[N]; // inicjacja tablicy struktur(rekordow)
 	for(i = 0; i < N; i++) // kopiowanie z tablic do tablicy struktur
